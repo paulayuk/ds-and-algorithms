@@ -5,5 +5,5 @@ function sortedSquaredArray(array) {
   for(i = 0; i < array.length; i++){
     newArr.push(array[i] ** 2)
   }
-  return newArr.sort(function(a, b){return a - b});
+  return newArr.sort((a, b) => {return a - b});
 }
